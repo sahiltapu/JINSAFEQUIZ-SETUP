@@ -51,3 +51,6 @@ call :CheckApplication %appName%
 
 
 goto :EOF
+
+
+pause
