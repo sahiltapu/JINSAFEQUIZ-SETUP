@@ -38,7 +38,7 @@ if errorlevel 1 (
 ) else (
     echo %~1 copied to the startup folder successfully.
 )
-
+pause
 goto :EOF
 
 :InstallSetup
@@ -51,6 +51,5 @@ call :CheckApplication %appName%
 
 
 goto :EOF
-
 
 pause
